@@ -4,21 +4,18 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      "defaultValue": "Parth",
       "metadata": {
         "description": "User name for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
-      "defaultValue": "Parth123",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
     },
     "dnsLabelPrefix": {
       "type": "string",
-      "defaultValue": "defaultparthdns",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
